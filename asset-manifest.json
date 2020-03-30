@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AntonChetveryk/contacts/static/css/main.44216914.chunk.css",
-    "main.js": "/AntonChetveryk/contacts/static/js/main.29a967e2.chunk.js",
-    "main.js.map": "/AntonChetveryk/contacts/static/js/main.29a967e2.chunk.js.map",
-    "runtime~main.js": "/AntonChetveryk/contacts/static/js/runtime~main.79f03ea2.js",
-    "runtime~main.js.map": "/AntonChetveryk/contacts/static/js/runtime~main.79f03ea2.js.map",
-    "static/css/2.de424728.chunk.css": "/AntonChetveryk/contacts/static/css/2.de424728.chunk.css",
-    "static/js/2.d0d7df7c.chunk.js": "/AntonChetveryk/contacts/static/js/2.d0d7df7c.chunk.js",
-    "static/js/2.d0d7df7c.chunk.js.map": "/AntonChetveryk/contacts/static/js/2.d0d7df7c.chunk.js.map",
-    "index.html": "/AntonChetveryk/contacts/index.html",
-    "precache-manifest.b90b8bb4f2198fc5192d670c5ae7a78a.js": "/AntonChetveryk/contacts/precache-manifest.b90b8bb4f2198fc5192d670c5ae7a78a.js",
-    "service-worker.js": "/AntonChetveryk/contacts/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/AntonChetveryk/contacts/static/css/2.de424728.chunk.css.map",
-    "static/css/main.44216914.chunk.css.map": "/AntonChetveryk/contacts/static/css/main.44216914.chunk.css.map"
+    "main.css": "/contacts/static/css/main.44216914.chunk.css",
+    "main.js": "/contacts/static/js/main.29a967e2.chunk.js",
+    "main.js.map": "/contacts/static/js/main.29a967e2.chunk.js.map",
+    "runtime~main.js": "/contacts/static/js/runtime~main.79ac44f6.js",
+    "runtime~main.js.map": "/contacts/static/js/runtime~main.79ac44f6.js.map",
+    "static/css/2.de424728.chunk.css": "/contacts/static/css/2.de424728.chunk.css",
+    "static/js/2.d0d7df7c.chunk.js": "/contacts/static/js/2.d0d7df7c.chunk.js",
+    "static/js/2.d0d7df7c.chunk.js.map": "/contacts/static/js/2.d0d7df7c.chunk.js.map",
+    "index.html": "/contacts/index.html",
+    "precache-manifest.fdd6eef9889c45720b02ae2663528947.js": "/contacts/precache-manifest.fdd6eef9889c45720b02ae2663528947.js",
+    "service-worker.js": "/contacts/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/contacts/static/css/2.de424728.chunk.css.map",
+    "static/css/main.44216914.chunk.css.map": "/contacts/static/css/main.44216914.chunk.css.map"
   }
 }
