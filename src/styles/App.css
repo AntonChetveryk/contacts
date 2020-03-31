@@ -2,6 +2,26 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 14px;
+}
+
 .contact-container:not(:last-child) {
   border-bottom: 1px solid #000;
+}
+
+.device-container {
+  margin: auto;
+  width: 500px;
+  background: aqua;
+  padding: 20px;
+  height: 100vh;
+}
+
+.input {
+  width: 80%;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  border-radius: 5px;
 }

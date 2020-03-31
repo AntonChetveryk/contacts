@@ -11,7 +11,7 @@ export default function Contact(props) {
       {contact.gender ? (
         <img
           src={contact.gender === "female" ? Female : Male}
-          width="40px"
+          width="30px"
           alt="img"
           className="mb-2"
         />
