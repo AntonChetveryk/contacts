@@ -8,22 +8,22 @@ class Contacts extends Component {
     search: "",
     male: true,
     female: true,
-    unknown: true
+    unknown: true,
   };
 
   filterByGender = () => {};
 
-  handleSearchChange = e => {
+  handleSearchChange = (e) => {
     e.persist();
-    this.setState(state => ({
-      search: e.target.value
+    this.setState((state) => ({
+      search: e.target.value,
     }));
   };
 
-  handleGender = e => {
+  handleGender = (e) => {
     e.persist();
-    this.setState(state => ({
-      [e.target.name]: e.target.checked
+    this.setState((state) => ({
+      [e.target.name]: e.target.checked,
     }));
   };
 
@@ -76,17 +76,21 @@ class Contacts extends Component {
 
           {contacts
             .filter(
-              contact =>
+              (contact) =>
                 (!search ||
-                  contact.lastName.toLowerCase().includes(search) ||
-                  contact.firstName.toLowerCase().includes(search) ||
+                  contact.lastName
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  contact.firstName
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
                   contact.phone.includes(search)) &&
                 (contact.gender
                   ? (female && contact.gender === "female") ||
                     (male && contact.gender === "male")
                   : unknown)
             )
-            .map(contact => (
+            .map((contact) => (
               <Contact key={contact.lastName} contact={contact} />
             ))}
         </div>
